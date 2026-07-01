@@ -223,25 +223,27 @@ li a {
 
 @media (min-width: 1024px) {
   header {
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   padding: 0;
 }
 
 header img {
   height: 1rem;
+  align-self: flex-start;
+  margin: 1.5rem 0 0 1.5rem;
 }
 
 .header-nav {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 ul {
   border-top: none;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 li {
@@ -259,7 +261,7 @@ li a {
 
 .header-phone-section {
   border-top: none;
-  margin: 0 1rem 0 1rem;
+  margin: 0 0 0 1rem;
   gap: 0.5rem;
 }
 
