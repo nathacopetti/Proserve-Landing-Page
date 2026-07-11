@@ -230,7 +230,7 @@ li a {
 /*desktop breakpoint*/
 
 @media (min-width: 1024px) {
-  header {
+header {
   justify-content: space-between;
   padding: .75rem .5rem .25rem .5rem;
   gap: .5rem;
@@ -318,6 +318,80 @@ li a {
   
 }
 
-@media (min-height: 1440px) {
+@media (min-width: 1440px) {
+
+header {
+  padding: 1.5rem 1rem .5rem 1rem;
+  gap: 1rem;
+}
+
+header img {
+  height: 3rem;
+  margin-bottom: .85rem;
+  margin-top: .9rem;
+}
+
+ul {
+  gap: 2rem;
+}
+
+li {
+  gap: 1rem;
+}
+
+li svg {
+  height: 3rem;
+  width: 3em;
+}
+
+li a {
+  font-size: 1.5rem;
+}
+
+.header-phone-section {
+  gap: 1rem;
+  align-items: center;
+}
+
+.header-phone-number-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.header-phone-number { 
+  font-size: 1.5rem;
+}
+
+.hero-section {
+    gap: 0rem;
+    flex-direction: row;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+    padding: 1.5rem 2rem 0 2rem;
+  }
+
+  .hero-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .hero-section p {
+    font-size: 1.5rem;
+    max-width: 32rem;
+  }
+
+  .hero-section button {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: .75rem 1rem .75rem 1rem;
+    margin: 0 2rem 0 2rem;
+    border-radius: .5rem;
+  }
+
+  .hero-section img {
+    width: 100%;
+    height: 50rem;
+  }
 
 }
