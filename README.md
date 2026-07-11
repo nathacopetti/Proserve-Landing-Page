@@ -1,3 +1,37 @@
+*AI README suggestion*
+
+# Proserve Landing Page
+
+Responsive landing page inspired by a modern sports academy website.
+
+## Technologies
+
+- HTML5
+- CSS3
+- Flexbox
+- Mobile-First
+- Responsive Design
+
+## Features
+
+- Mobile-first layout
+- Responsive navigation
+- Hero section
+- Multiple breakpoints
+- Semantic HTML
+
+## What I learned
+
+- Mobile-first workflow
+- Media queries
+- Flexbox layouts
+- Responsive spacing
+- Visual hierarchy
+
+---------------------------
+
+*Meu README:*
+
 Meu primeiro projeto mobile-first: PROSERVE.
 
 O PROSERVE é um projeto landing-page de uma página de academia.
